@@ -1,15 +1,7 @@
-# This library should import for work with regular expression
-import re
 
 # you can use following syntec for multiple line in python.it's call 'multiline string'
 # ''' my multiline string'''
 
-
-text_to_search='''
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-'''
 txt='''
 ~ 	Tilde.
 ` 	Acute, back quote, grave, grave accent, left quote, open quote, or a push.
@@ -51,13 +43,14 @@ _ 	Underscore.
 ? 	Question mark.'''
 
 
-al=''
+ch=''
 p=0
 for i in txt:
     p+=1
     if  i=='\n':
-        al+=txt[p]
+        ch+=txt[p]
         #print(txt[p])
 
-print(al)
+print(ch)
 
+#>>> ~`!@#£€$¢¥§%°^&*()-_+={}[]|\/:;"'<>,.?
