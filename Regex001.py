@@ -32,5 +32,7 @@ for m in matches:
     print(m)
 #>>> <_sre.SRE_Match object; span=(8, 11), match='abc'>
 #  it's say's   match='abc' in txt string between span=(8, 11)  (8,11] 
+#  this match is case sensitive and not detect 'ABC'
+#  this match is look oreder eg:- not detect 'acb' , 'cab'..ect. 
 print(txt[8:11])
 #>>> abc
