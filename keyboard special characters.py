@@ -54,3 +54,4 @@ for i in txt:
 print(ch)
 
 #>>> ~`!@#£€$¢¥§%°^&*()-_+={}[]|\/:;"'<>,.?
+# python unicode >> https://docs.python.org/3/howto/unicode.html
