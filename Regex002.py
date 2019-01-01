@@ -117,8 +117,8 @@ for s in smatches:
 # To End of a String eg:-'$'
 sentence='Start a sentence and then bring it to an end'
 
-toStart=re.compile(r'nd$')
-tmatches=toStart.finditer(sentence) # select ' Ha Ha<Ha><Ha> '
+toEnd=re.compile(r'nd$')
+tmatches=toEnd.finditer(sentence) # select ' Ha Ha<Ha><Ha> '
 
 for t in tmatches:
     print('to end ',t)
